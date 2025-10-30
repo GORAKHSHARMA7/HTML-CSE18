@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Hotel Room Booking Form</title> 
+</head> 
+<body> 
+    <form action="INDEX.HTML"> 
+        <fieldset> 
+            <legend>Personal Information</legend> 
+            <h1>Hotel Room Booking Form</h1> 
+            <label for="name">Full Name: 
+                <input type="text" name="name" id="name"> 
+            </label> 
+            <br><br> 
+            <label for="email">Email: 
+                <input type="email" name="email"> 
+            </label> 
+            <br><br> 
+            <label for="phone">Phone: 
+                <input type="tel" name="phone"> 
+            </label> 
+            <br><br> 
+            <label for="date">Check-in-Date: 
+                <input type="date" name="Date" id="Check-in-Date"> 
+            </label> 
+            <br><br> 
+            <label for="date">Check-out-Date: 
+                <input type="date" name="Date" id="Check-out-Date"> 
+            </label> 
+            <br><br> 
+            <label for="Room">Room Type: 
+                <select name="Room" id="Room"> 
+                    <option value="single">Single Room</option> 
+                    <option value="double">Double Room</option> 
+                </select> 
+            </label> 
+            <br><br> 
+            <label for="number">Number of Guests: 
+                <input type="number" name="number" id="number" min="1" max="4"> 
+            </label> 
+            <br><br> 
+            <label for="feedback">Special Requests: 
+                <br><textarea name="feedback" id="feedback"></textarea> 
+            </label> 
+            <br><br> 
+            <input type="submit" value="Book Now"> 
+            <input type="reset" value="Reset Form"> 
+        </fieldset> 
+    </form> 
+</body> 
+</html>~
